@@ -1,0 +1,370 @@
+
+/*Grid css*/
+.sens {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+.sen {
+    padding: 1px;
+}
+@media (min-width: 900px) {
+    .sens {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 600px) {
+    .sens {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* MACUI @3.0 CSS - Developer Dhaval */
+:root {
+  --border-radius: 25px;
+
+  --color-1: #86efac;
+  --color-2: #d6cefb;
+  --color-3: #e8f0fe;
+  --color-4: #f6f8c9;
+
+  --text-1: #14582b;
+  --text-2: #4529d4;
+  --text-3: #3b66b1;
+
+  --btn-1: #2fd76c;
+  --btn-2: #a593ff;
+  --btn-3: #bfd6fd;
+  --btn-4: #f1f790;
+
+  --color-shadow-1: #4fd981;
+  --color-shadow-2: #ac9bff;
+  --color-shadow-3: #bfd6fd;
+  --color-shadow-4: #f4f99d;
+
+  --color-black: #000;
+  --color-white: #fff;
+  --color-red: #ff0000;
+  --color-green: #00ca4e;
+  --color-yellow: #ffbd44;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+[data-theme='Aesthetic'] {
+  --color-1: #C5BAFF;
+  --text-1: #371faf;
+  --color-shadow-1: #ac9bff;
+  --btn-1: #a392fc;
+}
+
+[data-theme='Pastel'] {
+  --color-1: #e8f0fe;
+  --text-1: #3a801a;
+  --color-shadow-1: #d2e0fa;
+  --btn-1: #bfd6fd;
+}
+
+[data-theme='Nord'] {
+  --color-1: #f6f8c9;
+  --text-1: #177635;
+  --color-shadow-1: #edf28e;
+  --border-radius: 5px;
+  --btn-1: #c1ffa4;
+}
+
+.c1 {
+  background-color: #cafad7;
+}
+
+.c2 {
+  background-color: #d6cefb;
+}
+
+.c3 {
+  background-color: #e8f0fe;
+}
+
+.c4 {
+  background-color: #f6f8c9;
+}
+
+.c5 {
+  background-color: #fafafa;
+}
+
+.btn1 {
+  background-color: #2fd76c;
+}
+
+.btn2 {
+  background-color: #a593ff;
+}
+
+.btn3 {
+  background-color: #bfd6fd;
+}
+
+.btn4 {
+  background-color: #f1f790;
+}
+
+/*Notes*/
+.macnotes {
+  padding: 18px;
+  height: 100%;
+  border-radius: var(--border-radius);
+  margin-bottom: 20px;
+}
+
+.macnotes-border {
+  border: 2px solid black;
+  padding: 18px;
+  height: 100%;
+  border-radius: var(--border-radius);
+  gap: 10px;
+  margin-bottom: 20px;
+
+  heading {
+  padding: 20px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  margin-top: -18px;
+  margin-left: -18px;
+  margin-right: -18px;
+  margin-bottom: 20px;
+  display: flex;
+  }
+}
+
+.macnotes-border:hover {
+  box-shadow: 4px 4px black;
+}
+
+.macborder {
+  border: 2px solid black;
+  border-radius: var(--border-radius);
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+.macshadow {
+  box-shadow: 4px 4px black;
+}
+
+/*Grid css*/
+.grids {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.grid {
+  padding: 1px;
+}
+
+@media (min-width: 900px) {
+  .grids {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 600px) {
+  .grids {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*Button*/
+.macbtn {
+  padding: 13px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 3px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: var(--border-radius);
+  width: fit-content;
+  display: flex;
+  margin-top: 10px;
+}
+
+.macbtn:hover {
+  transform: translateY(-2px) translateX(-2px);
+}
+
+.macbtn2 {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  border-radius: 10em;
+  padding: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid black;
+  box-shadow: 0 0 0 0 black;
+  display: flex;
+  width: fit-content;
+}
+
+.macbtn2:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+;
+
+.macbtn2:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+;
+
+.ul {
+  display: inline-block;
+  color: var(--color-black);
+  text-decoration: n1;
+}
+
+.ul::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: var(--color-black);
+  transition: width .3s;
+}
+
+.ul:hover::after {
+  width: 100%;
+}
+
+.macheading {
+  padding: 15px;
+  width: fit-content;
+  font-weight: bold;
+  border-radius: var(--border-radius);
+  margin-bottom: 20px;
+}
+
+/* After 3.0*/
+.macbtn1 {
+  background-color: transparent;
+  border: 2px 2px solid black;
+  box-shadow: 2px 2px black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.macbtn1:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 4px 4px black;
+}
+
+;
+
+.macbtn1:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+nav {
+    background-color: #7B6ADA;
+    color: white;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+nav .logo {
+    font-weight: 600;
+    font-size: xx-large;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+nav ul li {
+    margin: 0px 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 11px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+ul li a:hover {
+    background-color: white;
+    color:  black;
+}
+.ic {
+    cursor: pointer;
+    display: none;
+}
+#click:checked ~ul {
+    left: 0;
+}
+#click {
+    display: none;
+}
+.dd {
+    display: none;
+}
+@media (max-width: 940px) {
+    .dd {
+    display: block;
+}
+    .ic {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        display: block;
+}
+nav ul li {
+    margin: 40px 20px;
+}
+}
